@@ -1,9 +1,8 @@
+import Logo from "../Assets/Logo.png";
 import React, { useState } from "react";
 import Style from "./Nav.module.scss";
-import { Link, useLocation } from "react-router-dom";
-
-import Logo from "../Assets/Logo.png";
 import Toggler from "./Utilities/ToggleBtn";
+import { Link, useLocation } from "react-router-dom";
 
 const links = [
   {

@@ -1,13 +1,12 @@
 import React, { useState } from "react";
 import Style from "./Main.module.scss";
-import { Route, Routes } from "react-router-dom";
-import { Box, Grid } from "@mui/material";
-
 import Nav from "./Nav";
 // import Home from "./Home/Home";
 // import Portfolio from "./Portfolio/Portolio";
 // import ContactForm from "./Contact/Contact";
 // import Footer from "./Footer/Footer";
+import { Route, Routes } from "react-router-dom";
+import { Box, Grid } from "@mui/material";
 
 export default function Main() {
   let [darkMode, setDarkMode] = useState(false);
