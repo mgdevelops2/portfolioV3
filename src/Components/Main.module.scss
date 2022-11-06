@@ -1,0 +1,40 @@
+@import "../variables.modules";
+
+footer {
+  color: $dark;
+}
+
+.dark {
+  background-color: $dark;
+  color: $white;
+  transition: all 400ms;
+
+  a,
+  li {
+    color: $white;
+    transition: color 400ms;
+  }
+  nav {
+    background-color: $darkgray;
+  }
+  a:visited {
+    color: $white;
+  }
+
+  footer {
+    color: $white;
+  }
+  contact {
+    color: $dark;
+  }
+}
+
+.light {
+  background-color: #c6d7eb;
+  color: $dark;
+  transition: all 400ms;
+
+  nav {
+    background-color: $white;
+  }
+}

@@ -1,0 +1,20 @@
+@import "../variables.modules";
+
+nav {
+  transition: $transition;
+}
+
+.active {
+  border-bottom: 5px solid;
+  border-image-slice: 1;
+  color: $dark;
+}
+
+li {
+  transition: $transition;
+
+  &:hover {
+    transform: translateX(5px);
+    transition: $transition;
+  }
+}
