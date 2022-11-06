@@ -14,11 +14,11 @@ export default function ToggleBtn({ darkMode, handleClick }) {
     >
       {darkMode ? (
         <span onClick={handleClick} aria-label="Full Moon" role="img">
-          🌞
+          <i class="bi bi-lightbulb"></i>
         </span>
       ) : (
         <span onClick={handleClick} aria-label="New Moon" role="img">
-          🌚
+          <i class="bi bi-lightbulb-fill"></i>
         </span>
       )}
     </Box>
