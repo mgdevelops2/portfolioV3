@@ -54,30 +54,49 @@ export default function Navbar({ darkMode, handleClick }) {
             height="75"
           />
         </a>
-
-        {links.map((link, index) => (
-          <div
-            key={index}
-            component={"li"}
-            className={link.active === active && !link.type && Style.active}
-          >
-            <Link to={link.to} onClick={() => setActive(link.active)}>
-              {!link.type && (
-                <p style={{ paddingBottom: "0.5rem" }}>{link.name}</p>
-              )}
-              {link.type && <h1>{link.name}</h1>}
-            </Link>
-          </div>
-        ))}
-        <a
-          class="btn btn-outline-secondary btn-rounded"
-          href="https://drive.google.com/file/d/1C7Xux-yypJCIU5KcisPC2K_0dsFTA8_m/view?usp=sharing"
-          target="_blank"
-          rel="noreferrer"
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
         >
-          Resume
-        </a>
-        <Toggler darkMode={darkMode} handleClick={handleClick} />
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto align-items-center">
+            {links.map((link, index) => (
+              <div
+                key={index}
+                component={"li"}
+                className={link.active === active && !link.type && Style.active}
+              >
+                <Link to={link.to} onClick={() => setActive(link.active)}>
+                  {!link.type && (
+                    <p
+                      class="mx-4 my-1 fs-6"
+                      style={{ paddingBottom: "0.5rem" }}
+                    >
+                      {link.name}
+                    </p>
+                  )}
+                  {link.type && <h1>{link.name}</h1>}
+                </Link>
+              </div>
+            ))}
+            <a
+              class="btn btn-outline-secondary mx-4"
+              href="https://drive.google.com/file/d/1C7Xux-yypJCIU5KcisPC2K_0dsFTA8_m/view?usp=sharing"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Resume
+            </a>
+          </ul>
+          <Toggler darkMode={darkMode} handleClick={handleClick} />
+        </div>
       </div>
     </nav>
   );

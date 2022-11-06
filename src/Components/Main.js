@@ -7,7 +7,7 @@ import Nav from "./Nav";
 import Home from "./Home/Home";
 import Footer from "./Footer/Footer";
 import Portfolio from "./Portfolio/Portfolio";
-// import ContactForm from "./Contact/Contact";
+import ContactForm from "./Contact/Contact";
 
 export default function Main() {
   let [darkMode, setDarkMode] = useState(true);
@@ -40,7 +40,7 @@ export default function Main() {
             <Route
               exact
               path={"/portolfiov3/contactForm"}
-              // element={<ContactForm />}
+              element={<ContactForm />}
             />
           </Routes>
         </Grid>
