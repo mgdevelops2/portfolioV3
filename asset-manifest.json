@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/portolfiov3/static/css/main.81905922.css",
+    "main.js": "/portolfiov3/static/js/main.87ecbf8f.js",
+    "static/media/Selfie.png": "/portolfiov3/static/media/Selfie.1a642e36e117cd1ed7ac.png",
+    "static/media/Logo.png": "/portolfiov3/static/media/Logo.36690b0caac7880bec87.png",
+    "index.html": "/portolfiov3/index.html",
+    "main.81905922.css.map": "/portolfiov3/static/css/main.81905922.css.map",
+    "main.87ecbf8f.js.map": "/portolfiov3/static/js/main.87ecbf8f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.81905922.css",
+    "static/js/main.87ecbf8f.js"
+  ]
+}
