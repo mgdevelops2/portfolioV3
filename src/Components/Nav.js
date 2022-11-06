@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import Style from "./Nav.module.scss";
 import { Link, useLocation } from "react-router-dom";
 
-// import Logo from "../Assets/Logo.png";
-// import Toggler from "./Utilities/ToggleBtn";
+import Logo from "../Assets/Logo.png";
+import Toggler from "./Utilities/ToggleBtn";
 
 const links = [
   {
@@ -49,7 +49,7 @@ export default function Navbar({ darkMode, handleClick }) {
         <a class="navbar-brand" href="/portolfiov3/">
           <img
             id="MGD-logo"
-            // src={Logo}
+            src={Logo}
             alt="MGD-Logo"
             draggable="false"
             height="75"
@@ -78,7 +78,7 @@ export default function Navbar({ darkMode, handleClick }) {
         >
           Resume
         </a>
-        {/* <Toggler darkMode={darkMode} handleClick={handleClick} /> */}
+        <Toggler darkMode={darkMode} handleClick={handleClick} />
       </div>
     </nav>
   );
