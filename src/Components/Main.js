@@ -6,7 +6,7 @@ import { Box, Grid } from "@mui/material";
 import Nav from "./Nav";
 import Home from "./Home/Home";
 import Footer from "./Footer/Footer";
-// import Portfolio from "./Portfolio/Portolio";
+import Portfolio from "./Portfolio/Portfolio";
 // import ContactForm from "./Contact/Contact";
 
 export default function Main() {
@@ -32,16 +32,15 @@ export default function Main() {
         <Grid item flexGrow={1}>
           <Routes>
             <Route exact path={"//portolfiov3/"} element={<Home />} />
-            {/* <Route exact path={"/resume"} element={<Resume />} /> */}
+            <Route
+              exact
+              path={"/portolfiov3/portfolio"}
+              element={<Portfolio />}
+            />
             <Route
               exact
               path={"/portolfiov3/contactForm"}
               // element={<ContactForm />}
-            />
-            <Route
-              exact
-              path={"/portolfiov3/portfolio"}
-              // element={<Portfolio />}
             />
           </Routes>
         </Grid>
