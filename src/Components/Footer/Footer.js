@@ -21,7 +21,7 @@ function Footer() {
           {/* <!-- /lc-block --> */}
           <div class="d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto col-md-4">
             <div class="lc-block text-center">
-              <a class="navbar-brand" href="/portolfiov3/">
+              <a class="navbar-brand" href="/portfoliov3/">
                 <img
                   class="img-fluid me-1"
                   src={Logo}

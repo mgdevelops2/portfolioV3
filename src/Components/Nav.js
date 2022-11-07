@@ -7,17 +7,17 @@ import { Link, useLocation } from "react-router-dom";
 const links = [
   {
     name: "Home",
-    to: "/portolfiov3/",
+    to: "/portfoliov3/",
     active: "Home",
   },
   {
     name: "portfolio",
-    to: "/portolfiov3/portfolio",
+    to: "/portfoliov3/portfolio",
     active: "portfolio",
   },
   {
     name: "contact",
-    to: "/portolfiov3/contactForm",
+    to: "/portfoliov3/contactForm",
     active: "contactMe",
   },
 ];
@@ -45,7 +45,7 @@ export default function Navbar({ darkMode, handleClick }) {
         gap={{ xs: "2rem", md: "8rem" }}
         fontSize={"1rem"}
       >
-        <a class="navbar-brand" href="/portolfiov3/">
+        <a class="navbar-brand" href="/portfoliov3/">
           <img
             id="MGD-logo"
             src={Logo}

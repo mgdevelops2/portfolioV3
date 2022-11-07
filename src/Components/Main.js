@@ -31,15 +31,15 @@ export default function Main() {
 
         <Grid item flexGrow={1}>
           <Routes>
-            <Route exact path={"//portolfiov3/"} element={<Home />} />
+            <Route exact path={"/portfoliov3/"} element={<Home />} />
             <Route
               exact
-              path={"/portolfiov3/portfolio"}
+              path={"/portfoliov3/portfolio"}
               element={<Portfolio />}
             />
             <Route
               exact
-              path={"/portolfiov3/contactForm"}
+              path={"/portfoliov3/contactForm"}
               element={<ContactForm />}
             />
           </Routes>
