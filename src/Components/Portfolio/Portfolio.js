@@ -112,7 +112,7 @@ function Home() {
         <div class="row featurette">
           <div class="col-md-7 order-md-2">
             <h2 class="featurette-heading fw-normal lh-1">
-              Learning local database,{" "}
+              Using local databases,{" "}
               <span class="text-muted">Note Taking App</span>
             </h2>
             <p class="lead">
@@ -124,7 +124,9 @@ function Home() {
             <p class="lead">
               <i class="bi bi-tools"></i> Tools/Tech:{" "}
               <a href="#" target="_blank" rel="noreferrer">
-                <i class="bi bi-filetype-json fs-4 text-primary"></i>
+                <i class="fab bi-filetype-html fs-4 text-primary"></i>{" "}
+                <i class="fab fa-js-square fs-4 text-primary"></i>{" "}
+                <i class="fab bi bi-filetype-json fs-4 text-primary"></i>{" "}
               </a>
             </p>
             <p class="lead">
@@ -167,21 +169,20 @@ function Home() {
         <div class="row featurette">
           <div class="col-md-7">
             <h2 class="featurette-heading fw-normal lh-1">
-              Using the Openweathermap.org API,{" "}
-              <span class="text-muted">Broswer HomePage</span>
+              Custom, <span class="text-muted">Broswer Homepage</span>
             </h2>
             <p class="lead">
-              This is a browser homepage, and basically my test lab, I am
-              starting off by adding the daily weather using an API smack dab in
-              the middle as my Minimum Viable Product(MVP). The idea here is to
-              continue to add to this blank canvas and challenge myself by
-              making it responsive, and adding things like a notes section and a
-              favorite links section.
+              This is a browser homepage. It uses JavaScript to manipulate the
+              DOM, fetch data from the OpenWeatherMap API, and the Unsplash API
+              to bring it's user up-to-date weather information, and a
+              background image of the searched desitation.
             </p>
             <p class="lead">
               <i class="bi bi-tools"></i> Tools/Tech:{" "}
               <a href="#" target="_blank" rel="noreferrer">
-                #
+                <i class="fab bi-filetype-html fs-4 text-primary"></i>{" "}
+                <i class="fab fa-js-square fs-4 text-primary"></i>{" "}
+                <i class="fab fa-bootstrap fs-4 text-primary">,</i>{" "}
               </a>
             </p>
             <p class="lead">
@@ -224,19 +225,22 @@ function Home() {
         <div class="row featurette">
           <div class="col-md-7 order-md-2">
             <h2 class="featurette-heading fw-normal lh-1">
-              You takes notes right,{" "}
+              JacaScript Notes,{" "}
               <span class="text-muted">Just Another Text Editor</span>
             </h2>
             <p class="lead">
               {" "}
-              This is a really cool text editor that runs in the browser as a
-              single page app. It falls under Progressive Web App (PWA)
-              standards - using HTML, CSS, JS, JSON and Heroku for deployment.
+              This is a text editor that runs in the browser as a single page
+              app. It falls under Progressive Web App (PWA) standards - using
+              HTML, CSS, JS, JSON and Heroku for deployment.
             </p>
             <p class="lead">
               <i class="bi bi-tools"></i> Tools/Tech:{" "}
               <a href="#" target="_blank" rel="noreferrer">
-                dsad
+                <i class="fab bi-filetype-html fs-4 text-primary"></i>{" "}
+                <i class="fab fa-css3-alt fs-4 text-primary"></i>{" "}
+                <i class="fab fa-js-square fs-4 text-primary"></i>{" "}
+                <i class="fab bi bi-filetype-json fs-4 text-primary"></i>{" "}
               </a>
             </p>
             <p class="lead">
@@ -282,9 +286,9 @@ function Home() {
               2nd game, <span class="text-muted">RockPaperScissors</span>
             </h2>
             <p class="lead">
-              When my girlfriend and I can't decide who gets to pick date night
-              dinner, we always choose to resolve our dispute over a game of
-              RPS, so I decided to build one verse a computer.
+              When my girlfriend and I can't decide who gets to pick where we
+              have date night, we always choose to resolve our dispute over a
+              game of RPS, so I decided to build one verse a computer.
             </p>
             <p class="lead">
               <i class="bi bi-tools"></i> Tools/Tech:{" "}
@@ -336,16 +340,18 @@ function Home() {
               <span class="text-muted">readme Generator</span>
             </h2>
             <p class="lead">
-              Let's be honest here! If you are a developer at some point you've
-              had to write code for a readme file at some point, and chances are
-              you probably didn't think it was the fun part of coding. This aims
-              to rid us of that burden and give us command-line prompt that will
-              auto-fill a readme file for you.
+              If you are a developer, then you know the benefits of a well
+              written read-me document. This aims to make it easier to prepare a
+              quality read-me file, by giving the user a command-line prompt
+              that will create a README.md file for you with your responses.
+              Using HTML, JS, and Node.
             </p>
             <p class="lead">
               <i class="bi bi-tools"></i> Tools/Tech:{" "}
               <a href="#" target="_blank" rel="noreferrer">
-                dsad
+                <i class="fab bi-filetype-html fs-4 text-primary"></i>{" "}
+                <i class="fab fa-js-square fs-4 text-primary"></i>{" "}
+                <i class="fab fa-node fs-4 text-primary"></i>{" "}
               </a>
             </p>
             <p class="lead">
@@ -400,7 +406,9 @@ function Home() {
             <p class="lead">
               <i class="bi bi-tools"></i> Tools/Tech:{" "}
               <a href="#" target="_blank" rel="noreferrer">
-                dsad
+                <i class="fab bi-filetype-html fs-4 text-primary"></i>{" "}
+                <i class="fab fa-css3-alt fs-4 text-primary"></i>{" "}
+                <i class="fab fa-js-square fs-4 text-primary"></i>{" "}
               </a>
             </p>
             <p class="lead">
@@ -443,14 +451,17 @@ function Home() {
               <span class="text-muted">1st portfolio. </span>
             </h2>
             <p class="lead">
-              Like I said this is my firt portfolio, built with vanilla
-              JavaScript. It was built with very basic understanding of design
-              concepts and a lot of inspiration from developers I admiere.{" "}
+              This is my first attempt at building out a portfolio. It was
+              inspired by some amazing web designers and built with vanilla
+              JavaScript - using a beginners lever of understanding of web
+              design concepts.{" "}
             </p>
             <p class="lead">
               <i class="bi bi-tools"></i> Tools/Tech:{" "}
               <a href="#" target="_blank" rel="noreferrer">
-                dsad
+                <i class="fab bi-filetype-html fs-4 text-primary"></i>{" "}
+                <i class="fab fa-css3-alt fs-4 text-primary"></i>{" "}
+                <i class="fab fa-js-square fs-4 text-primary"></i>{" "}
               </a>
             </p>
             <p class="lead">
@@ -474,9 +485,9 @@ function Home() {
                 SimpleQuiz
               </a>
             </p>
-            <p class="lead">
+            {/* <p class="lead">
               <i class="bi bi-youtube"></i> Video:
-            </p>
+            </p> */}
           </div>
           <div class="col-md-5 order-md-1">
             <img

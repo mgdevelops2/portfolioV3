@@ -88,7 +88,7 @@ export default function Navbar({ darkMode, handleClick }) {
             ))}
             <a
               class="btn btn-outline-secondary mx-4"
-              href="https://drive.google.com/file/d/1C7Xux-yypJCIU5KcisPC2K_0dsFTA8_m/view?usp=sharing"
+              href="https://drive.google.com/file/d/1XFJODcFVwFrgKV8Qj2D-xfeNxSAJgfco/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
             >
