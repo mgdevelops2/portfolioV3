@@ -86,14 +86,14 @@ export default function Navbar({ darkMode, handleClick }) {
                 </Link>
               </div>
             ))}
-            <a
+            {/* <a
               class="btn btn-outline-secondary mx-4"
               href="https://drive.google.com/file/d/1XFJODcFVwFrgKV8Qj2D-xfeNxSAJgfco/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
             >
               Resume
-            </a>
+            </a> */}
           </ul>
           <Toggler darkMode={darkMode} handleClick={handleClick} />
         </div>
